@@ -7,7 +7,7 @@
   <title>spider man</title>
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
       rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="./css/bootstrap.scss">
   <script src="./js/bootstrap.js"></script>
@@ -17,7 +17,43 @@
 </head>
 <body>
 
-
+  <div class="side-btn">
+    <div class="toggle-btn">
+      <span class="material-icons-outlined">
+        arrow_left
+      </span>
+    </div>
+    <div class="side-contents">
+      <div>
+        <a href="javascript:void(0);">
+          <span class="material-icons-outlined" title="장바구니">
+            shopping_bag
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="javascript:void(0);" title="찜목록">
+          <span class="material-icons-outlined">
+            favorite_border
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="javascript:void(0);" title="최근 본 목록">
+          <span class="material-icons-outlined">
+            visibility
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="javascript:void(0);" class="위로가기">
+          <span class="material-icons-outlined">
+            expand_less
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
   <header class="mobile-header">
     <div class="inner">
       <div class="logo-box">
@@ -27,7 +63,7 @@
           <span></span>
         </div>
         <div class="logo">
-          logo
+          HO<span>ME DE</span>CO
         </div>
         <div class="icons">
           <div class="icon">
@@ -96,13 +132,22 @@
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <li class="accordion-body-list">
-                  <a href="javascript:void(0);">도자기</a>
+                  <a href="javascript:void(0);">장식소품</a>
+                </li>
+                <li class="accordion-body-list">
+                  <a href="javascript:void(0);">시계 & 벽장식</a>
+                </li>
+                <li class="accordion-body-list">
+                  <a href="javascript:void(0);">액자</a>
+                </li>
+                <li class="accordion-body-list">
+                  <a href="javascript:void(0);">수납정리함</a>
                 </li>
                 <li class="accordion-body-list">
                   <a href="javascript:void(0);">거울</a>
                 </li>
                 <li class="accordion-body-list">
-                  <a href="javascript:void(0);">등</a>
+                  <a href="javascript:void(0);">조명 & 캔들</a>
                 </li>
               </div>
             </div>
@@ -110,39 +155,63 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                goods
+                FURNITURE
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <li class="accordion-body-list">
-                  <a href="javascript:void(0);">도자기</a>
+                  <a href="javascript:void(0);">테이블</a>
                 </li>
                 <li class="accordion-body-list">
-                  <a href="javascript:void(0);">거울</a>
+                  <a href="javascript:void(0);">의자</a>
                 </li>
                 <li class="accordion-body-list">
-                  <a href="javascript:void(0);">등</a>
+                  <a href="javascript:void(0);">선반 & 행거</a>
                 </li>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
-                goods
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                FABRIC & LIFE
               </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <li class="accordion-body-list">
-                  <a href="javascript:void(0);">도자기</a>
+                  <a href="javascript:void(0);">쿠션 & 방석</a>
                 </li>
                 <li class="accordion-body-list">
-                  <a href="javascript:void(0);">거울</a>
+                  <a href="javascript:void(0);">러그</a>
                 </li>
                 <li class="accordion-body-list">
-                  <a href="javascript:void(0);">등</a>
+                  <a href="javascript:void(0);">생활 & 욕실용품</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed  accordion-icon-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                KITCHEN
+              </button>
+            </h2>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                GARDEN
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <li class="accordion-body-list">
+                  <a href="javascript:void(0);">조화</a>
+                </li>
+                <li class="accordion-body-list">
+                  <a href="javascript:void(0);">화병</a>
                 </li>
               </div>
             </div>
@@ -153,6 +222,266 @@
     </div>
   </header>
 
+  <header class="pc-header">
+    <div class="inner">
+      <div class="logo">
+        <a href="javascript:void(0);">HOMEDECO</a>
+      </div>
+      <ul class="lnb">
+        <li class="lnb-box">
+          <div class="lnb-title">
+            <a href="javascript:void(0);">BEST PRODUCT</a>
+          </div>
+        </li>
+        <li class="lnb-box">
+          <div class="lnb-title">
+            <a href="javascript:void(0);">NEW PRODUCT</a>
+          </div>
+        </li>
+        <li class="lnb-box">
+          <div class="lnb-title">
+            <a href="javascript:void(0);">DECO</a>
+          </div>
+          <div class="lnb-content">
+            <div class="inner">
+              <h4 class="lnb-content-subtitle">
+                DECO
+              </h4>
+              <ul class="lnb-content-menu">
+                <li>
+                  <a href="javascript:void(0);">장식소품</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">시계 & 벽장식</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">액자</a></li>
+                <li>
+                  <a href="javascript:void(0);">수납정리함</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">거울</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">조명 & 캔들</a>
+                </li>
+              </ul>
+              <div class="lnb-content-sub">
+                <div>
+                  <img src="https://my-l.co.kr/web/product/big/202102/92333fab30a5709aa030860e634a6426.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="lnb-box">
+          <div class="lnb-title">
+            <a href="javascript:void(0);">FURNITURE</a>
+          </div>
+          <div class="lnb-content">
+            <div class="inner">
+              <h4 class="lnb-content-subtitle">
+                FURNITURE
+              </h4>
+              <ul class="lnb-content-menu">
+                <li>
+                  <a href="javascript:void(0);">테이블</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">의자</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">선반 & 행거</a>
+                </li>
+              </ul>
+              <div class="lnb-content-sub">
+                <div>
+                  <img src="https://my-l.co.kr/web/product/big/202102/92333fab30a5709aa030860e634a6426.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            </div>
+        </li>
+        <li class="lnb-box">
+          <div class="lnb-title">
+            <a href="javascript:void(0);">FABRIC & LIFE</a>
+          </div>
+          <div class="lnb-content">
+            <div class="inner">
+              <h4 class="lnb-content-subtitle">
+                FABRIC & LIFE
+              </h4>
+              <ul class="lnb-content-menu">
+                <li>
+                  <a href="javascript:void(0);">쿠션 & 방석</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">러그</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">생활 & 욕실용품</a>
+                </li>
+              </ul>
+              <div class="lnb-content-sub">
+                <div>
+                  img
+                </div>
+              </div>
+            </div>
+            </div>
+        </li>
+        <li class="lnb-box">
+          <div class="lnb-title">
+            <a href="javascript:void(0);">KITCHEN</a>
+          </div>
+        </li>
+        <li class="lnb-box">
+          <div class="lnb-title">
+            <a href="javascript:void(0);">GARDEN</a>
+          </div>
+          <div class="lnb-content">
+            <div class="inner">
+              <h4 class="lnb-content-subtitle">
+                GARDEN
+              </h4>
+              <ul class="lnb-content-menu">
+                <li>
+                  <a href="javascript:void(0);">조화</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">화병</a>
+                </li>
+              </ul>
+              <div class="lnb-content-sub">
+                <div>
+                  img
+                </div>
+              </div>
+            </div>
+            </div>
+        </li>
+      </ul>
+
+      <ul class="gnb">
+        <li>
+          <a href="javascript:void(0);" title="로그인">
+            <span class="material-icons-outlined">
+              login
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" title="마이 페이지">
+            <span class="material-icons-outlined">
+              person_outline
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" title="이벤트">
+            <span class="material-icons-outlined">
+              card_giftcard
+            </span>
+          </a>
+        </li>
+        <li class="pc-search">
+          <a href="javascript:void(0);" title="검색">
+            <span class="material-icons-outlined">
+              search
+            </span>
+          </a>
+        </li>
+        <li class="pc-search-box">
+          <div class="inner">
+            <div>SEARCH</div>
+            <div>
+              <input type="text" placeholder="검색어를 입력해주세요">
+              <p>추천검색어 : 1</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="main-visual">
+      
+    </section>
+ 
+    <section class="section2">
+      <div class="box-top">
+        <div class="box-content">
+          <a href="javascript:void(0);">
+            <img src="https://listshop.co.kr/web/product/big/202008/12fb672d7312007db09a682a1ae4526f.jpg" alt="">
+            <p>BEST PRODUCT</p>
+          </a>
+        </div>
+        <div>
+          <div>
+            <div class="box-content">
+              <a href="javascript:void(0);">
+                <img src="https://listshop.co.kr/web/product/big/202008/12fb672d7312007db09a682a1ae4526f.jpg" alt="">
+                <p>HOMEDECO NEW</p>
+              </a>
+            </div>
+            <div class="box-content">
+              <a href="javascript:void(0);">
+                <img src="https://listshop.co.kr/web/product/big/202008/12fb672d7312007db09a682a1ae4526f.jpg" alt="">
+                <p>DECO</p>
+              </a>
+            </div>
+          </div>
+          <div class="box-content">
+            <a href="javascript:void(0);">event
+              <img src="" alt="">
+              <p>EVENT</p>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="box-bottom">
+        <div class="box-content">
+          <a href="javascript:void(0);">
+            <img src="https://listshop.co.kr/web/product/big/202008/12fb672d7312007db09a682a1ae4526f.jpg" alt="">
+            <p>HOMEDECO MAGAZINE</p>
+          </a>
+        </div>
+        <div class="box-content">
+          <a href="javascript:void(0);">
+            <img src="https://listshop.co.kr/web/product/big/202008/12fb672d7312007db09a682a1ae4526f.jpg" alt="">
+            <p>FURNITURE</p>
+          </a>
+        </div>
+        <div class="box-content">
+          <a href="javascript:void(0);">
+            <img src="https://listshop.co.kr/web/product/big/202008/12fb672d7312007db09a682a1ae4526f.jpg" alt="">
+            <p>KITCHEN</p>
+          </a>
+        </div>
+        <div class="box-content">
+          <a href="javascript:void(0);">
+            <img src="https://listshop.co.kr/web/product/big/202008/12fb672d7312007db09a682a1ae4526f.jpg" alt="">
+          <p>suckamadick</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="best">
+      <h3>
+        Best seller
+      </h3>
+    </section>
+    
+    <section class="best">
+      <h3>
+        Md's pick
+      </h3>
+    </section>
+  </main>
 
 </body>
 </html>

@@ -27,11 +27,11 @@ $accordion-body-padding-x:                0;
 
 $accordion-button-padding-y:              $accordion-padding-y;
 $accordion-button-padding-x:              $accordion-padding-x;
-$accordion-button-color:                  $accordion-color;
+$accordion-button-color:                  #333;
 $accordion-button-bg:                     $accordion-bg;
 $accordion-transition:                    $btn-transition, border-radius .15s ease;
-$accordion-button-active-bg:              #fff;
-$accordion-button-active-color:           unset;
+$accordion-button-active-bg:              unset;
+$accordion-button-active-color:           #333;
 
 $accordion-button-focus-border-color:     unset;
 $accordion-button-focus-box-shadow:       none;
@@ -42,5 +42,9 @@ $accordion-icon-active-color:             $accordion-button-active-color;
 $accordion-icon-transition:               transform .2s ease-in-out;
 $accordion-icon-transform:                rotate(-180deg);
 
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+
 @import "../node_modules/bootstrap/scss//bootstrap.scss"
+
 
