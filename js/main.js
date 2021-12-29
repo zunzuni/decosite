@@ -1,3 +1,5 @@
+import Swiper from '../node_modules/swiper/swiper-bundle';
+
 const toggleBtn = document.querySelector('.toggle-btn')
 const sideBtn = document.querySelector('.side-btn')
 toggleBtn.addEventListener('click',() => {
@@ -54,3 +56,29 @@ const pcSearchBox = document.querySelector('.pc-search-box')
 pcSearch.addEventListener('click',() => {
   pcSearchBox.classList.toggle('clicked')
 })
+
+const topBtn = document.querySelector('#top-btn')
+topBtn.addEventListener('click',() => {
+  window.scrollTo(0,0)
+})
+// header
+
+
+
+new Swiper('.swiper-section .swiper', {
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    clickable: true,
+  },
+  slidesPerView: 3,
+  spaceBetween: 10,
+  centeredSlides: true,
+});
+

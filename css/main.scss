@@ -1,3 +1,4 @@
+@import '../node_modules/swiper/swiper.scss';
 $main-color: rgb(95, 0, 0);
 html {
   scroll-behavior: smooth;
@@ -421,6 +422,12 @@ img {
             p {
               color: #333;
               padding: 24px 6px;
+              span {
+                cursor: pointer;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
             }
           }
         }
@@ -488,11 +495,65 @@ main {
     }
   }
 
-  .best {
+  .swiper-section {
+    padding: 50px 0;
     h3 {
       text-align: center;
       font-size: 18px;
       font-size: 500;
+      padding: 12px 0;
+    }
+    .swiper {
+      position: relative;
+      padding-bottom: 15px;
+      max-width: 1080px;
+      .swiper-wrapper {
+        .swiper-slide {
+          width: 33.333333%;
+          a {
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+      .swiper-pagination {
+        display: flex;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        span {
+          display: block;
+          width: 10px;
+          height: 10px;
+          background-color: #bbb;
+          margin: 5px;
+          border-radius: 50%;
+          &.swiper-pagination-bullet-active {
+            background-color: $main-color;
+          }
+        }
+      }
+      .swiper-button {
+          position: absolute;
+          top: 50%;
+          z-index: 9;
+          width: 30px;
+          height: 30px;
+          background-color: rgba(black, .2);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        &.swiper-button-next {
+          right: 0;
+        }
+        &.swiper-button-prev {
+          left: 0;
+        }
+      }
+      
     }
   }
 
@@ -509,5 +570,30 @@ main {
   }
   main {
     margin-top: 50px;
+
+    
+  }
+
+}
+
+@media (min-width: 1080px) {
+  main {
+    .section2 {
+      .box-content {
+        a {
+          p {
+            font-size: 1.8vw;
+          }
+        }
+      }
+      .box-top {
+        flex-direction: row;
+      }
+      .box-bottom {
+        div {
+          width: 25%;
+        }
+      }
+    }
   }
 }
