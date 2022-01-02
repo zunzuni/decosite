@@ -2,23 +2,24 @@
 
 $main-color: rgb(95, 0, 0);
 
-header.header-on {
-  background-color: #fff;
-  color: #333;
-  .gnb {
-    li {
-      a {
-        span {
-          color: #666;
-          &:hover {
-            color: #333;
+  header.header-on {
+    background-color: #fff;
+    color: #333;
+    .gnb {
+      li {
+        a {
+          span {
+            color: #666;
+            &:hover {
+              color: #333;
+            }
           }
         }
       }
     }
   }
-}
 
+  
 main {
   
   
@@ -117,12 +118,13 @@ main {
         display: block;
         width: 10px;
         height: 10px;
-        margin: 5px;
+        margin: 2px;
         background-color: #bbb;
-        border-radius: 50%;
+        transition: all .3s;
 
         &.swiper-pagination-bullet-active {
           background-color: $main-color;
+          width: 30px;
         }
       }
     }
@@ -162,7 +164,6 @@ main {
       >div {
         width: 100%;
         >div {
-          background-color: red;
           display: flex;
           >div {
             width: 50%;
@@ -230,10 +231,12 @@ main {
           width: 10px;
           height: 10px;
           background-color: #bbb;
-          margin: 5px;
-          border-radius: 50%;
+          margin: 2px;
+          // transition: all .3s;
           &.swiper-pagination-bullet-active {
             background-color: $main-color;
+            width: 30px;
+            height: 10px;
           }
         }
       }
@@ -322,31 +325,55 @@ main {
     margin: 50px 0;
     width: 100%;
     background-color: green;
-    // background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
     .inner {
       max-width: 1080px;
       .banner {
-        height: 300px;
-        position: relative;
-        overflow: hidden;
-        .line1 {
-          width: 100px;
-          height: 200%;
-          position: absolute;
-          background-color: red;
-          right: 20%;
-          transform: rotate(25deg) translateY(-25%);
+        height: 200px;
+        padding-top: 25px;
+        p {
+          text-align: center;
+          &:nth-child(1) {
+            width: 120px;
+            height: 30px;
+            border: 2px solid #fff;
+            color: #fff;
+            margin: 0 auto;
+            font-size: 12px;
+            line-height: 27px;
+            border-radius: 20px;
+          }
+          &:nth-child(3) {
+            color: green;
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
         }
-        .line2 {
-          width: 100px;
-          height: 200%;
-          position: absolute;
-          background-color: gray;
-          right: 25%;
-          transform: rotate(25deg) translateY(-25%);
+        h6 {
+          margin-top: 12px;
+          text-align: center;
+          color: rgb(104, 0, 17);
+          font-size: 28px;
+          font-weight: 700;
+        }
+        a {
+          display: block;
+          width: 60px;
+          height: 25px;
+          border: 1px solid #fff;
+          margin: 0 auto;
+          color: #fff;
+          text-align: center;
+          line-height: 20px;
+          font-size: 14px;
+          transition: all .3s;
+          &:hover {
+            background-color: $main-color;
+            border: 1px solid $main-color;
+          }
         }
       }
     }

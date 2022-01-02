@@ -1,0 +1,119 @@
+
+.pc-header {
+  background-color: #fff;
+  color: #333;
+
+  .gnb {
+    li {
+      a {
+        span {
+          color: #666;
+
+          &:hover {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sub-title-top {
+  padding: 70px 24px 24px 24px;
+  box-sizing: content-box;
+  margin: 0px auto;
+  font-size: 14px;
+  max-width: 1080px;
+  color: #aaa;
+  font-weight: 300;
+  text-align: right;
+  p {
+    a:hover {
+      color: #666;
+    }
+  }
+}
+
+.login-box {
+  padding: 24px;
+  .login {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    padding: 62px;
+    h3 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 8px;
+      &:nth-child(2) {
+        color: #999;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+    }
+    form {
+      input {
+        width: 100%;
+        padding: 6px 2px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #333;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        outline: none;
+        &:nth-child(3) {
+          height: 45px;
+          background-color: #666;
+          border: 0;
+          color: #fff;
+          transition: all .2s;
+          font-weight: 300;
+          margin-bottom: 5px;
+          &:hover {
+            background-color: #333;
+          }
+        }
+      }
+    }
+    div {
+      width: 100%;
+      height: 45px;
+      line-height: 45px;
+      margin-bottom: 5px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 300;
+      cursor: pointer;
+      &.kakao {
+        background-color: #ffdc00;
+      }
+      &.naver {
+        background-color: #25c625;
+      }
+      &.joinin {
+        border: 1px solid #aaa;
+        transition: all .2s;
+        margin-bottom: 30px;
+        &:hover {
+          background-color: #efefef;
+        }
+      }
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      li {
+        height: 10px;
+        line-height: 10px;
+        font-size: 13px;
+        cursor: pointer;
+        &:nth-child(1) {
+          margin-right: 10px;
+          padding-right: 10px;
+          border-right: 1px solid #ccc;
+        }
+      }
+    }
+  }
+}

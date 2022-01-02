@@ -268,8 +268,8 @@ img {
   z-index: 9999;
   height: 50px;
   transition: all .2s;
-  color: #333;
-  background-color: #fff;
+  color: #fff;
+  background-color: transparent;
   >.inner {
     display: flex;
     padding: 0 7%;
@@ -431,6 +431,8 @@ img {
 
 footer {
   margin-top: 50px;
+  padding-top: 24px;
+  border-top: 1px solid #eee;
   .inner {
     max-width: 1080px;
     padding: 24px;
@@ -540,6 +542,7 @@ footer {
 
 @media (min-width: 1080px) {
   footer {
+    padding-top: 48px;
     .inner {
       padding: 0;
 

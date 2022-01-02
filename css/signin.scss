@@ -1,0 +1,128 @@
+$main-color: rgb(95, 0, 0);
+
+.pc-header {
+  background-color: #fff;
+  color: #333;
+
+  .gnb {
+    li {
+      a {
+        span {
+          color: #666;
+
+          &:hover {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sub-title-top {
+  padding: 70px 24px 24px 24px;
+  box-sizing: content-box;
+  margin: 0px auto;
+  font-size: 14px;
+  max-width: 1080px;
+  color: #aaa;
+  font-weight: 300;
+  text-align: right;
+  p {
+    a:hover {
+      color: #666;
+    }
+  }
+}
+
+
+.signin-box {
+  form {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    .title {
+      margin: 20px 0 5px 0;
+      font-weight: 300;
+      font-size: 15px;
+      span {
+        color: $main-color;
+      }
+    }
+    input {
+      width: 100%;
+      padding: 3px;
+      font-size: 14px;
+      outline: none;
+    }
+    select {
+      padding: 3px;
+      font-size: 14px;
+      outline: none;
+    }
+    .input-birth {
+      display: flex;
+      input {
+        width: 33%;
+      }
+      select {
+        width: 33%;
+        margin: 0 10px;
+      }
+    }
+    .input-phone {
+      display: flex;
+      align-items: center;
+      span {
+        display: block;
+        padding: 0 15px;
+      }
+    }
+  }
+
+  .agree-box {
+    margin: 50px auto 0 auto;
+    padding: 24px;
+    max-width: 500px;
+    box-sizing: content-box;
+    h4 {
+      font-size: 18px;
+      padding: 30px 0;
+    }
+    h5 {
+      font-size: 15px;
+      padding: 15px 0;
+    }
+    .text {
+      border: 1px solid #ccc;
+      overflow-y: scroll;
+      height: 150px;
+      padding: 24px;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+    .text-etc {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  .joinin-button {
+    display: block;
+    width: 200px; 
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 0;
+    background-color: #666;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    transition: all .2s;
+    margin: 0 auto;
+    &:hover {
+      background-color: #333;
+    }
+  }
+
+}
+

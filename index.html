@@ -5,12 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HOMEDECO</title>
+  <link rel="icon" href="./favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
       rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="./css/bootstrap.scss">
   <script src="./js/bootstrap.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="./css/common.scss">
   <script defer src="./js/common.js"></script>
   <link rel="stylesheet" href="./css/main.scss">
@@ -80,7 +81,7 @@
       <div class="lnb-box">
         <div class="log">
           <div>로그인을 해주세요</div>
-          <a href="javascript:void(0);">로그인</a>
+          <a href="./components/login.html">로그인</a>
         </div>
         <ul class="gnb">
           <li>
@@ -113,8 +114,9 @@
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button collapsed accordion-icon-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <a href="./components/product.html">BEST PRODUCT</a>
+              <button class="accordion-button collapsed accordion-icon-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+              onclick = "location.href = './components/product.html'">
+                BEST PRODUCT
               </button>
             </h2>
           </div>
@@ -413,14 +415,14 @@
 
       <ul class="gnb">
         <li>
-          <a href="javascript:void(0);" title="로그인">
+          <a href="./components/login.html" title="로그인">
             <span class="material-icons-outlined">
               login
             </span>
           </a>
         </li>
         <li>
-          <a href="javascript:void(0);" title="마이 페이지">
+          <a href="./components/login.html" title="마이 페이지">
             <span class="material-icons-outlined">
               person_outline
             </span>
@@ -537,7 +539,7 @@
         </div>
         <div class="box-content">
           <a href="javascript:void(0);">
-            <img src="./images/img9.jpg" alt="">
+            <img src="./images/img8.jpg" alt="">
             <p>GARDEN</p>
           </a>
         </div>
@@ -761,9 +763,10 @@
     <section class="banner-section">
       <div class="inner">
         <div class="banner">
-          <p>sucka ma dick</p>
-          <div class="line1"></div>
-          <div class="line2"></div>
+          <p>HOMEDECO EVENT</p>
+          <h6>회원가입 이벤트</h6>
+          <p>회원가입시 적립금 3,000원 적립</p>
+          <a href="javascript:void">join in</a>
         </div>
       </div>
     </section>

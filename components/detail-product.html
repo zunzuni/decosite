@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>HOMEDECO</title>
+  <link rel="icon" href="../favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
       rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -64,7 +65,7 @@
           <span></span>
         </div>
         <div class="logo">
-          <a href="javascript:void(0);">HOMEDECO</a>
+          <a href="../index.html">HOMEDECO</a>
         </div>
         <div class="icons">
           <div class="icon">
@@ -79,7 +80,7 @@
       <div class="lnb-box">
         <div class="log">
           <div>로그인을 해주세요</div>
-          <a href="javascript:void(0);">로그인</a>
+          <a href="./login.html">로그인</a>
         </div>
         <ul class="gnb">
           <li>
@@ -112,8 +113,9 @@
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button collapsed accordion-icon-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <a href="./product.html">BEST PRODUCT</a>
+              <button class="accordion-button collapsed accordion-icon-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+              onclick = "location.href = './components/product.html'">
+                BEST PRODUCT
               </button>
             </h2>
           </div>
@@ -244,7 +246,7 @@
   <header class="pc-header">
     <div class="inner">
       <div class="logo">
-        <a href="javascript:void(0);">HOMEDECO</a>
+        <a href="../index.html">HOMEDECO</a>
       </div>
       <ul class="lnb">
         <li class="lnb-box">
@@ -412,14 +414,14 @@
 
       <ul class="gnb">
         <li>
-          <a href="javascript:void(0);" title="로그인">
+          <a href="./login.html" title="로그인">
             <span class="material-icons-outlined">
               login
             </span>
           </a>
         </li>
         <li>
-          <a href="javascript:void(0);" title="마이 페이지">
+          <a href="./login.html" title="마이 페이지">
             <span class="material-icons-outlined">
               person_outline
             </span>
@@ -458,7 +460,7 @@
 
   <main>
     <div class="inner">
-      
+
       <h5 class="sub-title-top">
         <p>
           <a href="../index.html"> home </a>&nbsp; >&nbsp; <a href="./product.html">best product</a>
@@ -492,7 +494,7 @@
             <div>
               <div>수량</div>
               <div>
-                <input type="number" name="" id="num" min="0">
+                <input type="number" name="number" id="num" min="1">
               </div>
             </div>
             <p>
@@ -513,6 +515,382 @@
         </div>
       </div>
 
+      <div class="product-detail">
+
+
+        <div class="product-info" id="product-info">
+          <ul class="detail-nav">
+            <li>
+              <a href="#product-info"><span>상품정보</span></a>
+            </li>
+            <li>
+              <a href="#buy-info">구매안내</a>
+            </li>
+            <li>
+              <a href="#review">상품후기</a>
+            </li>
+            <li>
+              <a href="#inquire">상품문의</a>
+            </li>
+          </ul>
+
+          <h2>자기 화분세트</h2>
+
+          <div class="img">
+            <img src="../images/product/best1.jpg" alt="">
+          </div>
+
+          <div class="text">
+            <h5>상품명</h5>
+            <p>자기 화분세트</p>
+            <h5>색상</h5>
+            <p>black/gray/green</p>
+            <h5>사이즈</h5>
+            <p>28X12X16<br />
+              (높이X내경X외경)</p>
+            <h5>제조국</h5>
+            <p>대한민국</p>
+          </div>
+        </div>
+
+        <div class="buy-info" id="buy-info">
+          <ul class="detail-nav">
+            <li>
+              <a href="#product-info">상품정보</a>
+            </li>
+            <li>
+              <a href="#buy-info"><span>구매안내</span></a>
+            </li>
+            <li>
+              <a href="#review">상품후기</a>
+            </li>
+            <li>
+              <a href="#inquire">상품문의</a>
+            </li>
+          </ul>
+          <div class="text-box">
+            <div class="text">
+              <h3>상품결제정보</h3>
+              <p>
+                고액결제의 경우 안전을 위해 카드사에서 확인전화를 드릴 수도 있습니다. 확인과정에서 도난 카드의 사용이나 타인 명의의 주문등 정상적인 주문이 아니라고 판단될 경우 임의로 주문을 보류 또는
+                취소할
+                수 있습니다.<br />
+                <br />
+                무통장 입금은 상품 구매 대금은 PC뱅킹, 인터넷뱅킹, 텔레뱅킹 혹은 가까운 은행에서 직접 입금하시면 됩니다.<br />
+                주문시 입력한 입금자명과 실제입금자의 성명이 반드시 일치하여야 하며, 12시간 이내로 입금을 하셔야 하며 입금되지 않은 주문은 자동취소 됩니다.
+              </p>
+            </div>
+            <div class="text">
+              <h3>배송정보</h3>
+              <p>
+                재고 보유 시 구매하신 분들은 당일 발송을 원칙으로 하며,<br />
+                주문 폭주의경우 1~2일정도가 더 소요됩니다.<br />
+                <br />
+                제작 후 2주 소요로 구매하신 분들은<br />
+                주문 마감 후 제작기간 2-3주 후에 받아보실 수 있습니다.<br />
+                <br />
+                일반 구매의경우 재고가 있을 시 당일배송되나<br />
+                없는경우 2-3주 정도 소요됩니다.<br />
+                (보통 결제일 기준으로 평균 2-4일정도 소요됩니다)<br />
+                <br />
+                언제 받는지 궁금하신 경우<br />
+                홈페이지 문의게시판이나<br />
+                카카오톡 HOMEDECO<br />
+                재고문의를 하시면 재고 체크 후 빠르게 받아보실 수 있습니다.<br />
+                <br />
+                - 산간벽지나 도서지방은 별도의 추가금액을 지불하셔야 하는 경우가 있습니다.<br />
+                고객님께서 주문하신 상품은 입금 확인후 배송해 드립니다. 다만, 상품종류에 따라서 상품의 배송이 다소 지연될 수 있습니다.
+              </p>
+            </div>
+            <div class="text">
+              <h3>교환 및 반품정보</h3>
+              <p>
+                <span>
+                  미리 안내드린 사항 미숙지로 인한 불이익은 어떠한 책임도 지지 않습니다.
+                  번거로우시더라도 이용 전 꼭 필독해주세요
+                </span><br />
+                - 상품 수령 당일 날짜 기준으로 7일 이내(주말,공휴일포함)로 신청이 안되었을 경우<br />
+                *전자상거래 소비자 보호에 관한 법률에 의거한 기준*<br />
+                <br />
+                - 옵션 변경의 경우 반품 사유가 고객변심으로 인정되기 때문에 배송비는 고객님 부담입니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review" id="review">
+          <ul class="detail-nav">
+            <li>
+              <a href="#product-info">상품정보</a>
+            </li>
+            <li>
+              <a href="#buy-info">구매안내</a>
+            </li>
+            <li>
+              <a href="#review"><span>상품후기</span></a>
+            </li>
+            <li>
+              <a href="#inquire">상품문의</a>
+            </li>
+          </ul>
+          <div class="section-title">
+            <h2>REVIEW (1)</h2>
+            <a href="javascript:void(0);">리뷰 전체보기</a>
+          </div>
+          <div class="review-top">
+            <div>
+              <p>
+                <span class="material-icons-outlined">
+                  star
+                </span> 4.0
+              </p>
+            </div>
+            <ul>
+              <li>
+                <div>5점</div>
+                <div class="bar">
+                  <div></div>
+                </div>
+                <div>0</div>
+              </li>
+              <li>
+                <div>4점</div>
+                <div class="bar">
+                  <div class="bar-action"></div>
+                </div>
+                <div>1</div>
+              </li>
+              <li>
+                <div>3점</div>
+                <div class="bar">
+                  <div></div>
+                </div>
+                <div>0</div>
+              </li>
+              <li>
+                <div>2점</div>
+                <div class="bar">
+                  <div></div>
+                </div>
+                <div>0</div>
+              </li>
+              <li>
+                <div>1점</div>
+                <div class="bar">
+                  <div></div>
+                </div>
+                <div>0</div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="photo-review">
+            <div class="photo-review-title">
+              <h3>photo</h3>
+              <a href="javascript:void(0);">전체보기</a>
+            </div>
+            <ul class="photo">
+              <li>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <img src="../images/product/best1.jpg" alt="">
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <div class="modal-body">
+                        <img src="../images/product/best1.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="review-contents">
+            <ul class="review-order">
+              <li>
+                <a href="javascript:void(0);">추천순</a>
+              </li>
+              <li>
+                <a href="javascript:void(0);">별점순</a>
+              </li>
+              <li>
+                <a href="javascript:void(0);">최신순</a>
+              </li>
+            </ul>
+
+            <div>
+              <div class="star">
+                <span class="material-icons-outlined">
+                  star
+                </span>
+                <span class="material-icons-outlined">
+                  star
+                </span>
+                <span class="material-icons-outlined">
+                  star
+                </span>
+                <span class="material-icons-outlined">
+                  star
+                </span>
+                <span class="material-icons-outlined black-star">
+                  star
+                </span>
+                4
+              </div>
+              <p class="id">zunzuni 님의 review</p>
+              <p class="option">option: black</p>
+              <p class="text">
+                만족하며 사용하고 있습니다.
+              </p>
+            </div>
+            <div class="photos">
+              <div class="photo">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <img src="../images/product/best1.jpg" alt="">
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <div class="modal-body">
+                        <img src="../images/product/best1.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page-nav">
+              <ul>
+                <li>
+                  <a href="javascript:void(0);">
+                    <span class="material-icons-outlined">
+                      keyboard_double_arrow_left
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">
+                    <span class="material-icons-outlined">
+                      keyboard_arrow_left
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javasccript:void(0);">1</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">
+                    <span class="material-icons-outlined">
+                      keyboard_arrow_right
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">
+                    <span class="material-icons-outlined">
+                      keyboard_double_arrow_right
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="inquire" id="inquire">
+          <ul class="detail-nav">
+            <li>
+              <a href="#product-info">상품정보</a>
+            </li>
+            <li>
+              <a href="#buy-info">구매안내</a>
+            </li>
+            <li>
+              <a href="#review">상품후기</a>
+            </li>
+            <li>
+              <a href="#inquire"><span>상품문의</span></a>
+            </li>
+          </ul>
+          <h2>Q&A</h2>
+          <ul class="inquire-content">
+            <li class="inquire-content-title">
+              <ul>
+                <li>no</li>
+                <li>contents</li>
+                <li>name</li>
+                <li>date</li>
+                <li>view</li>
+              </ul>
+            </li>
+            <li class="inquire-content-text">
+              <ul class="inquire-content-text-question">
+                <li>1</li>
+                <li>배송 문의입니다</li>
+                <li>zun***</li>
+                <li>21.12.31</li>
+                <li>2</li>
+              </ul>
+              <ul class="inquire-content-text-answer">
+                <li>비밀번호</li>
+                <li><input type="password"> <button class="inquire-button">확인</button></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="page-nav">
+            <ul>
+              <li>
+                <a href="javascript:void(0);">
+                  <span class="material-icons-outlined">
+                    keyboard_double_arrow_left
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);">
+                  <span class="material-icons-outlined">
+                    keyboard_arrow_left
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="javasccript:void(0);">1</a>
+              </li>
+              <li>
+                <a href="javascript:void(0);">
+                  <span class="material-icons-outlined">
+                    keyboard_arrow_right
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);">
+                  <span class="material-icons-outlined">
+                    keyboard_double_arrow_right
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
     </div>
   </main>
 
@@ -567,7 +945,7 @@
           Copyright by 정준호. All rights reserved.
         </p>
         <div class="logo">
-          <a href="javascript:void(0);">HOMEDECO</a>
+          <a href="../index.html">HOMEDECO</a>
         </div>
       </div>
     </div>
