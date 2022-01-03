@@ -57,14 +57,14 @@ main {
                 transition: all 1s;
                 transform: translateY(0);
                 &:nth-child(1) {
-                  font-size: 40px;
-                  font-weight: 600;
-                  margin-bottom: 20px;
+                  font-size: 50px;
+                  font-weight: 500;
+                  margin-bottom: 40px;
                 }
                 &:nth-child(2) {
-                  font-size: 18px;
+                  font-size: 20px;
                   transition-delay: .4s;
-                  margin-bottom: 25px;
+                  margin-bottom: 60px;
                 }
                 &:nth-child(3) {
                   font-size: 18px;
@@ -131,6 +131,16 @@ main {
   }
 
   .section2 {
+    .box-row {
+      width: 100%;
+      a {
+        width: 100%;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
     .box-content {
       position: relative;
       overflow: hidden;
@@ -142,6 +152,7 @@ main {
         height: auto;
         transition: all .3s;
       }
+      
       a {
         display: block;
         p {
