@@ -1,13 +1,13 @@
 # 🏠 HOMEDECO SITE
 ## 홈데코 사이트입니다.  
-[데모사이트로 이동](https://naver.com)
+[데모사이트로 이동](https://decosite.netlify.app/index.html)
 # 📃 페이지구성
 페이지는 총 5페이지
-- [main 페이지]()
-- [best product 페이지]()
-- [product detail 페이지]()
-- [sign in 페이지]()
-- [join in 페이지]()
+- [main 페이지](https://decosite.netlify.app/index.html)
+- [best product 페이지](https://decosite.netlify.app/components/product.html)
+- [product detail 페이지](https://decosite.netlify.app/components/detail-product.html)
+- [sign in 페이지](https://decosite.netlify.app/components/login.html)
+- [join in 페이지](https://decosite.netlify.app/components/signin.html)
 
 로 구성되었습니다.
 # 🌞 Swiper Js
