@@ -16,7 +16,7 @@
 $main-color: rgb(95, 0, 0);
 ```
 # 📷 Images
-※ 이미지들은 pinterest, pixabay를 참고하였음을 알려드립니다.
+※ 이미지들은 pinterest, pixabay를 참고하였음을 알려드립니다.  
 [pinterest 참고](https://www.pinterest.co.kr/)  
 [pixabay 참고](https://pixabay.com/ko/)
 # 🌞 Swiper Js
