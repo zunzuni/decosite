@@ -1,7 +1,5 @@
 import Swiper from '../node_modules/swiper/swiper-bundle';
 
-
-
 new Swiper(".main-visual .swiper", {
   grabCursor: true,
   // loop: true,
