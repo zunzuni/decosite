@@ -49,10 +49,17 @@ main {
               top: 40%;
               left: 50%;
               transform: translateX(-50%);
+              text-align: center;
+              width: 100%;
               h2 {
                 font-size: 50px;
                 font-weight: 500;
                 margin-bottom: 40px;
+                width: 100%;
+                opacity: 0;
+                transition: all 1s;
+                transform: translateY(0);
+                color: #fff;
               }
               p {
                 text-align: center;
@@ -94,7 +101,7 @@ main {
           &.swiper-slide-active {
             .slide-contents {
               .text {
-                p {
+                h2,p {
                   opacity: 1;
                   transform: translateY(-35px);
                 }
